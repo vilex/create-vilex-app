@@ -16,7 +16,7 @@ const inputOptions: InputOptions = {
 }
 
 const outputOptions: OutputOptions = {
-  file: 'dist/bin.js',
+  file: 'dist/create-vilex-app.js',
   format: 'commonjs'
 }
 

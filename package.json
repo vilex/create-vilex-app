@@ -1,13 +1,13 @@
 {
   "name": "create-vilex-app",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Quickly create a web application based on vilex",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vilex/create-vilex-app.git"
   },
   "bin": {
-    "create-vilex-app": "dist/bin.js"
+    "create-vilex-app": "bin/index.js"
   },
   "keywords": [
     "vilex",
@@ -17,7 +17,8 @@
   "author": "wangxiaowei",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
   "scripts": {
     "dev": "ts-node ./src/index.ts",
